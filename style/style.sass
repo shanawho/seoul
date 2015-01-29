@@ -1,0 +1,145 @@
+$unit: 20px
+$red: #e1090a
+$blue: #226bbe
+$green: #08a247
+$yellow: #ffe63a
+$white: #fff
+$serif: 'Georgia', serif
+$header-sans: 'Futura', 'Helvetica', 'Arial', sans-serif
+$sans: 'Source Sans Pro', sans-serif
+
+  
+*
+  box-sizing: border-box
+
+body,
+html
+  margin: 0
+  padding: 0
+
+/*BACKGROUNDS*/
+
+.patch
+  width: 25%
+  padding: unit
+
+.red
+  background-color: $red
+
+.blue
+  background-color: $blue
+  
+.green
+  background-color: $green
+  
+.yellow
+  background-color: $yellow
+
+  
+/*TEXT*/
+  
+h2
+  text-align: center
+  clear: both
+
+.question
+  font-style: italic
+  font-family: $serif
+  
+.answer
+  font-family: $header-sans
+  font-size: 1.5em
+  
+.recording-title
+  font-style: italic
+  font-family: $serif
+
+h2,
+h3
+  font-family: $header-sans
+  
+p
+  font-family: $sans
+  max-width: 500px
+  
+    
+/* PARAGRAPHS*/
+
+p::first-line
+  font-family: $header-sans
+
+.two-col
+  max-width: 850px
+  margin: 0 auto
+  -moz-column-count: 2
+  -moz-column-gap: 4*$unit
+  -webkit-column-count: 2
+  -webkit-column-gap: 4*$unit
+  
+/*RECORDING*/
+  
+.left
+  margin-right: 50%
+  text-align: left
+
+.right
+  margin-left: 50%
+  padding-left: 2%
+    
+/* BACKGROUNDS */
+
+.head
+  background-image: url(../img/patch.png)
+  background-position: center
+  height: 800px
+  margin: 0 auto
+  background-repeat: no-repeat
+  color: $white
+
+  .head-left
+    width: 50%
+    float: left
+    text-align: right
+    
+  .head-right
+    padding-top: 8*$unit
+    width: 50%
+    float: left
+
+.stagger
+  clear: both
+  min-height: 15*$unit
+    
+  .text
+    background-color: $white
+    min-height: 15*$unit
+    
+
+  .question
+    margin-top: $unit * 2
+  .answer
+    text-align: left
+      
+  p
+    text-align: left
+
+.block
+  height: 100%
+  padding: 6*$unit $unit
+
+.text
+  padding: 2*$unit
+  
+
+.small
+  padding-top: $unit * 5
+  
+  
+.green
+  background-color: $green
+
+.red
+  background-color: $red
+  
+.yellow
+  background-color: $yellow

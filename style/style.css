@@ -1,0 +1,119 @@
+* {
+  box-sizing: border-box; }
+
+body,
+html {
+  margin: 0;
+  padding: 0; }
+
+/*BACKGROUNDS */
+.patch {
+  width: 25%;
+  padding: unit; }
+
+.red {
+  background-color: #e1090a; }
+
+.blue {
+  background-color: #226bbe; }
+
+.green {
+  background-color: #08a247; }
+
+.yellow {
+  background-color: #ffe63a; }
+
+/*TEXT */
+h2 {
+  text-align: center;
+  clear: both; }
+
+.question {
+  font-style: italic;
+  font-family: "Georgia", serif; }
+
+.answer {
+  font-family: "Futura", "Helvetica", "Arial", sans-serif;
+  font-size: 1.5em; }
+
+.recording-title {
+  font-style: italic;
+  font-family: "Georgia", serif; }
+
+h2,
+h3 {
+  font-family: "Futura", "Helvetica", "Arial", sans-serif; }
+
+p {
+  font-family: "Source Sans Pro", sans-serif;
+  max-width: 500px; }
+
+/* PARAGRAPHS */
+p::first-line {
+  font-family: "Futura", "Helvetica", "Arial", sans-serif; }
+
+.two-col {
+  max-width: 850px;
+  margin: 0 auto;
+  -moz-column-count: 2;
+  -moz-column-gap: 80px;
+  -webkit-column-count: 2;
+  -webkit-column-gap: 80px; }
+
+/*RECORDING */
+.left {
+  margin-right: 50%;
+  text-align: left; }
+
+.right {
+  margin-left: 50%;
+  padding-left: 2%; }
+
+/* BACKGROUNDS */
+.head {
+  background-image: url(../img/patch.png);
+  background-position: center;
+  height: 800px;
+  margin: 0 auto;
+  background-repeat: no-repeat;
+  color: white; }
+  .head .head-left {
+    width: 50%;
+    float: left;
+    text-align: right; }
+  .head .head-right {
+    padding-top: 160px;
+    width: 50%;
+    float: left; }
+
+.stagger {
+  clear: both;
+  min-height: 300px; }
+  .stagger .text {
+    background-color: white;
+    min-height: 300px; }
+  .stagger .question {
+    margin-top: 40px; }
+  .stagger .answer {
+    text-align: left; }
+  .stagger p {
+    text-align: left; }
+
+.block {
+  height: 100%;
+  padding: 120px 20px; }
+
+.text {
+  padding: 40px; }
+
+.small {
+  padding-top: 100px; }
+
+.green {
+  background-color: #08a247; }
+
+.red {
+  background-color: #e1090a; }
+
+.yellow {
+  background-color: #ffe63a; }
